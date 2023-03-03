@@ -19,23 +19,10 @@ public class DemoApplication {
 
 
 	}
-	/*@GetMapping
+	@GetMapping
 	public List<String> hello(){
 		return List.of("Hello", "world");
-	}*/
-
-	@GetMapping
-	public List<Student> hello(){
-
-		return List.of(
-				new Student(
-						1L,
-						"Tannu",
-						"tannu@gmail.com",
-						LocalDate.of(1999, Month.JANUARY, 10),
-						23
-				)
-				);
 	}
+
 
 }
