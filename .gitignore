@@ -52,3 +52,9 @@ target
 secrets.yml
 .gradletasknamecache
 .sts4-cache
+application.properties
+mvnw
+mvnw.cmd
+maven-wrapper.properties
+HELP.md
+
